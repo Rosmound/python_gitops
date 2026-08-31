@@ -5,8 +5,12 @@ height = input ("What is your height in cm? ")
 print(f"{height}cm")
 student = input ("Are you a student? True or False ")
 
+
 first_name = str(first_name)
 surname = str(surname)
 age = int(age)
 height = int(height)
 student = bool(student)
+
+print(first_name, type(first_name))
+
