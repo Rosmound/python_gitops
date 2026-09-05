@@ -1,16 +1,22 @@
-first_name = input ("Please enter your first name? ")
-surname = input ("Please enter your surname? ")
-age = input ("What is your age? ")
-height = input ("What is your height in cm? ")
-print(f"{height}cm")
-student = input ("Are you a student? True or False ")
+# dynamic variable
+firstname = input("What is your first name? ")
+surname = input("What is your surname? ")
+age = input("What is your age? ")
+gpa = input("What is your GPA score? ")
+student = input("Are you a student? ")
+
+# date type
+firstname = (str(firstname))
+surname = (str(surname))
+age = (int(age))
+gpa = (float(gpa))
+# student =(bool(student))
+student = student.lower() == "yes"
 
 
-first_name = str(first_name)
-surname = str(surname)
-age = int(age)
-height = int(height)
-student = bool(student)
 
-print(first_name, type(first_name))
-
+print(firstname)
+print(surname)
+print(age)
+print(gpa)
+print(student)
